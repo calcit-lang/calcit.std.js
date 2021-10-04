@@ -1,0 +1,26 @@
+{
+  "name": "@calcit/std",
+  "version": "0.0.1-a2",
+  "description": "STD library for Calcit-js",
+  "main": "lib/index.js",
+  "scripts": {
+    "compile": "rm -rf lib/* && yarn tsc --outDir lib/",
+    "test": "yarn tsc check"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/calcit-lang/calcit.std.js.git"
+  },
+  "keywords": [
+    "calcit"
+  ],
+  "author": "jiyinyiyong",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/calcit-lang/calcit.std.js/issues"
+  },
+  "homepage": "https://github.com/calcit-lang/calcit.std.js#readme",
+  "devDependencies": {
+    "typescript": "^4.4.3"
+  }
+}
