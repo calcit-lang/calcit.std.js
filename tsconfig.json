@@ -9,12 +9,12 @@
     "strictNullChecks": false,
     "moduleResolution": "node",
     "module": "esnext",
-    "target": "es2015",
+    "target": "ES2021",
     "jsx": "react",
     "lib": ["es2016", "dom"],
     "types": [],
     "baseUrl": "./ts-src/",
-    "importsNotUsedAsValues": "preserve"
+    "verbatimModuleSyntax": false
   },
   "include": ["./src/*"]
 }

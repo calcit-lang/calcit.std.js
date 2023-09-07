@@ -1,6 +1,6 @@
 {
   "name": "@calcit/std",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "STD library for Calcit-js",
   "main": "lib/index.mjs",
   "scripts": {
@@ -21,6 +21,6 @@
   },
   "homepage": "https://github.com/calcit-lang/calcit.std.js#readme",
   "devDependencies": {
-    "typescript": "^4.7.4"
+    "typescript": "^5.2.2"
   }
 }
